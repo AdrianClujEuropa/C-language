@@ -1,0 +1,14 @@
+clang hello.c     ///this terminal comand compiles the code
+./a.out           ///this is the default terminal comand to run a default name compiled program
+
+////////// o varianta e sa redenumim programul compilat astfel: $ clang -o prg1 hello.c /////////////
+///// run a program :  ./prg1
+
+
+//// o alta varianta: make hello
+
+
+/// can see all the files created by --->  ls  <--- command.
+/// rm a.out ==== deletes a.out
+
+    clang -o hello hello.c
